@@ -1,10 +1,10 @@
 import React from "react";
+import Searchinput from "../components/Searchinput";
 
 const Home = () => {
   return (
     <div>
-      <h2>Home</h2>
-      {/* Search input */}
+      <Searchinput />
       {/* Coctail List */}
     </div>
   );
