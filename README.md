@@ -1,1 +1,1 @@
-# React-App-Coctail-Fav
+# React-App-Shopping-Fav
