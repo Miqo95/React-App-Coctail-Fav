@@ -1,18 +1,13 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
-import Home from "./pages";
-import SingleCoctale from "./pages/SingleCoctale";
-import Header from "./components/Header";
+import Home from "./component/Home";
+import Navbar from "./component/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/cocktail/:id" element={<SingleCoctale />} />
-      </Routes>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+    </>
   );
 }
 
